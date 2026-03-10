@@ -1,0 +1,97 @@
+body {
+  min-height: 100vh;
+  background-color: #E4E4E6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Lexend Deca";
+}
+
+.principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #C8C9CB;
+  height: 700px;
+  width: 400px;
+  margin-bottom: 4px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+
+.image img {
+  width: 700px;
+  height: 700px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.input-peso p {
+  text-align: center;
+  padding: 5px;
+}
+
+.input-peso input {
+  background-image: url(../image/icons8-peso-kg-50.png);
+  background-repeat: no-repeat;
+  background-size: 30px;
+}
+
+input {
+    text-align: center;
+    width: 200px;
+    height: 35px;
+    border: none;
+    border-radius:6px;
+    border:2px solid #ccc;
+    outline:none;
+    transition:0.3s;
+}
+
+input:focus{
+    border-color :#00ffff;
+}
+
+.input-altura p {
+  text-align: center;
+  padding: 5px;
+}
+
+.input-altura input {
+  background-image: url(../image/icons8-régua-50.png);
+  background-repeat: no-repeat;
+  background-size: 30px;
+}
+
+.btn button{
+    background: #111;
+    color: #00ffff;
+    border: 2px solid #00ffff;
+    padding: 12px 28px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn button:hover{
+    box-shadow: 
+        0 0 10px #00ffff,
+        0 0 20px #00ffff,
+        0 0 40px #00ffff;
+}
+
+.btn p {
+    font-size: 20px;
+    font-family: "PT Serif";
+    font-weight: 500;
+}
+
+.resultado {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
