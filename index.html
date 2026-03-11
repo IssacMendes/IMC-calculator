@@ -35,17 +35,17 @@
         <div class="input-peso">
           <p>Peso em Kg</p>
           <span class="unidade">Kg</span>
-          <input type="number" placeholder="50" />
+          <input type="number" id="peso" placeholder="50" />
         </div>
 
         <div class="input-altura">
           <p>Altura em metros</p>
           <span class="altura">m</span>
-          <input type="number" placeholder="1,55" />
+          <input type="number" id="altura" placeholder="1,55" />
         </div>
 
         <div class="btn">
-          <button>
+          <button onclick="calcularIMC()">
             <p>Calcular</p>
           </button>
         </div>
@@ -55,5 +55,6 @@
         </div>
       </div>
     </section>
+    <script src="./scirpt.js"></script>
   </body>
 </html>
